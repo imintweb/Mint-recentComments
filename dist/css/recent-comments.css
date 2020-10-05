@@ -1,0 +1,56 @@
+.wjs-cmts-card-content {
+    font-size: 14px;
+    display: flex
+}
+
+.wjs-cmts-data {
+    line-height: 1.4
+}
+
+.wjs-cmts-image {
+    flex: 0 0 auto;
+    transform: translateY(0);
+    transition: transform .3s
+}
+
+.wjs-cmts-card-content:hover .wjs-cmts-image {
+    transform: translateY(-.25em)
+}
+
+.wjs-cmts-card-content {
+    padding: 1.5em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 21, 64, .14), 0 2px 20px rgba(0, 21, 64, .05)
+}
+
+.wjs-cmts-image {
+    margin-right: 1em
+}
+
+.wjs-cmts-image img {
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(0, 21, 64, .2), 0 2px 5px rgba(0, 21, 64, .05)
+}
+
+.wjs-cmts-snippet {
+    color: #37474f
+}
+
+.wjs-cmts-title {
+    font-size: 1em;
+    margin-bottom: .25em
+}
+
+.wjs-cmts-title a {
+    color: #263238;
+    margin-right: .5em;
+    font-weight: 500
+}
+
+.wjs-cmts-date {
+    color: #b0bec5;
+    margin-bottom: .5em;
+    font-size: .9em
+}
